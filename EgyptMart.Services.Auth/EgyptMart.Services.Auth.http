@@ -1,0 +1,6 @@
+@EgyptMart.Services.Auth_HostAddress = http://localhost:5082
+
+GET {{EgyptMart.Services.Auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@EgyptMart.Services.OrdersAPI_HostAddress = http://localhost:5012
+
+GET {{EgyptMart.Services.OrdersAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

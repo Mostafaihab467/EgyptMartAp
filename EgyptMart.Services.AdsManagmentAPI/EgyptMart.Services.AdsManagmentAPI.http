@@ -1,0 +1,46 @@
+@EgyptMart.Services.AdsManagmentAPI_HostAddress = http://localhost:5282/api/v1
+
+GET {{EgyptMart.Services.AdsManagmentAPI_HostAddress}}/Ads/AdsPricing/AdsLocationsLups
+Accept: application/json
+
+###
+
+GET {{EgyptMart.Services.AdsManagmentAPI_HostAddress}}/Ads/AdsPricing/GetAdsPricingList?repType=2
+Accept: application/json
+
+###
+
+Put {{EgyptMart.Services.AdsManagmentAPI_HostAddress}}/Ads/AdsPricing/SetActive/1
+Accept: application/json
+Content-Type: application/json
+{
+    "IsActive": true
+}
+###
+Post {{EgyptMart.Services.AdsManagmentAPI_HostAddress}}/Ads/AdsPricing/NewAdsPricing
+Accept: application/json
+Content-Type: application/json
+{
+  "planTitle": "string",
+  "locationID": 0,
+  "durationDays": -1,
+  "costBefore": 0,
+  "cost": 0,
+  "planDescription": "string",
+  "langID": 0,
+  "basePlanID": 0
+}
+###
+
+Put {{EgyptMart.Services.AdsManagmentAPI_HostAddress}}/Ads/AdsPricing/EditAdsPricing/1
+Accept: application/json
+Content-Type: application/json
+{
+  "planTitle": "string",
+  "locationID": 0,
+  "durationDays": -1,
+  "costBefore": 0,
+  "cost": 0,
+  "planDescription": "string"
+}
+###

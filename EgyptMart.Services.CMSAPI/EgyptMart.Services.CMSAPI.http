@@ -1,0 +1,6 @@
+@EgyptMart.Services.CMSAPI_HostAddress = http://localhost:5221
+
+GET {{EgyptMart.Services.CMSAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

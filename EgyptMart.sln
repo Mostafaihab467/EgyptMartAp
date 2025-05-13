@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptMart.Services.ProductsAPI", "EgyptMart.Services.ProductsAPI\EgyptMart.Services.ProductsAPI.csproj", "{82AA9247-E27E-42DD-B6C2-7A2DF85D6BAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptMart.Services.OrdersAPI", "EgyptMart.Services.OrdersAPI\EgyptMart.Services.OrdersAPI.csproj", "{7845509B-1E27-4CCA-BB24-FB063A7DBC45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptMart.Services.AdsManagmentAPI", "EgyptMart.Services.AdsManagmentAPI\EgyptMart.Services.AdsManagmentAPI.csproj", "{8778E5ED-9EBC-42E2-9B91-FBDD0FBC330A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptMart.Services.ReportingAPI", "EgyptMart.Services.ReportingAPI\EgyptMart.Services.ReportingAPI.csproj", "{21778BB7-079D-40D8-88CF-6872178B9283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EgyptMart.Services.CMSAPI", "EgyptMart.Services.CMSAPI\EgyptMart.Services.CMSAPI.csproj", "{2F443B23-DE09-49E8-843A-9A6793FACF65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptMart.Services.Auth", "EgyptMart.Services.Auth\EgyptMart.Services.Auth.csproj", "{76492467-4D28-4CFB-BD48-77FF0E549DE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82AA9247-E27E-42DD-B6C2-7A2DF85D6BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82AA9247-E27E-42DD-B6C2-7A2DF85D6BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82AA9247-E27E-42DD-B6C2-7A2DF85D6BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82AA9247-E27E-42DD-B6C2-7A2DF85D6BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7845509B-1E27-4CCA-BB24-FB063A7DBC45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7845509B-1E27-4CCA-BB24-FB063A7DBC45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7845509B-1E27-4CCA-BB24-FB063A7DBC45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7845509B-1E27-4CCA-BB24-FB063A7DBC45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8778E5ED-9EBC-42E2-9B91-FBDD0FBC330A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8778E5ED-9EBC-42E2-9B91-FBDD0FBC330A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8778E5ED-9EBC-42E2-9B91-FBDD0FBC330A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8778E5ED-9EBC-42E2-9B91-FBDD0FBC330A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21778BB7-079D-40D8-88CF-6872178B9283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21778BB7-079D-40D8-88CF-6872178B9283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21778BB7-079D-40D8-88CF-6872178B9283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21778BB7-079D-40D8-88CF-6872178B9283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F443B23-DE09-49E8-843A-9A6793FACF65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F443B23-DE09-49E8-843A-9A6793FACF65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F443B23-DE09-49E8-843A-9A6793FACF65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F443B23-DE09-49E8-843A-9A6793FACF65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76492467-4D28-4CFB-BD48-77FF0E549DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76492467-4D28-4CFB-BD48-77FF0E549DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76492467-4D28-4CFB-BD48-77FF0E549DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76492467-4D28-4CFB-BD48-77FF0E549DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59715D5D-F1B8-4496-B29F-5CA77456CCDE}
+	EndGlobalSection
+EndGlobal
