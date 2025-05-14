@@ -70,7 +70,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 app.UseCors("MyCorsPolicy");
 //app.UseCors(conf =>
 //{
-//    conf.AllowAnyOrigin()
+//    conf.AllowAnyOrigin() 
 //    .AllowAnyHeader()
 //    .AllowAnyMethod();
 //});
