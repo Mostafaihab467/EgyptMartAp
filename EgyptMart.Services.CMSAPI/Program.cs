@@ -27,7 +27,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-// Hello world  s ZZZZ
+// Hello world  
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
